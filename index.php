@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-<?php 
-	include 'template/cabecera-head.php'; 
+<?php
+include 'template/cabecera-head.php';
 ?>
 <body>
 	<header style="border-bottom: 1px solid #797979;">
@@ -26,7 +26,7 @@
 		<div class="container">
 			<p class="text-center pt-4">Las mejores im&aacute;genes totalmente gratis <br> y de calidad.</p>
 			<br>
-			
+
 			<!-- Primera Fila -->
 			<div class="row">
 				<!-- col-sm-3 => Laptop -->
@@ -39,7 +39,7 @@
     							Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos facilis dolores sit optio doloribus...
     						</p>
   						</div>
-					</div>	
+					</div>
 				</div>
 
 				<div class="col-sm-3">
@@ -51,7 +51,7 @@
     							Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos facilis dolores sit optio doloribus...
     						</p>
   						</div>
-					</div>	
+					</div>
 				</div>
 
 				<div class="col-sm-3">
@@ -63,7 +63,7 @@
     							Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos facilis dolores sit optio doloribus corporis dicta...
     						</p>
   						</div>
-					</div>	
+					</div>
 				</div>
 
 				<div class="col-sm-3">
@@ -75,7 +75,7 @@
     							Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos facilis dolores sit optio doloribus corporis dicta...
     						</p>
   						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 
@@ -90,7 +90,7 @@
     							Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos facilis dolores sit optio doloribus...
     						</p>
   						</div>
-					</div>	
+					</div>
 				</div>
 
 				<div class="col-sm-3">
@@ -102,7 +102,7 @@
     							Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos facilis dolores sit optio doloribus...
     						</p>
   						</div>
-					</div>	
+					</div>
 				</div>
 
 				<div class="col-sm-3">
@@ -114,7 +114,7 @@
     							Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos facilis dolores sit optio doloribus...
     						</p>
   						</div>
-					</div>	
+					</div>
 				</div>
 
 				<div class="col-sm-3">
@@ -126,7 +126,7 @@
     							Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos facilis dolores sit optio doloribus corporis dicta...
     						</p>
   						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -136,9 +136,9 @@
 		<p class="pt-4 text-center">&copy; Todos los derechos reservados a IMAGES PRO 2020</p>
 	</footer>
 
-	
-	<?php 
-		include 'template/code-js.php'; 
-	?>
+
+	<?php
+include 'template/code-js.php';
+?>
 </body>
 </html>
