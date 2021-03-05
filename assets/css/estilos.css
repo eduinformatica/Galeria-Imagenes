@@ -1,0 +1,41 @@
+/********************
+ * INDEX { HEADER }
+ ********************/
+
+* {
+    font-weight: 300;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.ip-logo {
+    width: 30px;
+    height: 30px;
+}
+
+/********************
+ * ERROR PAGE 404
+ ********************/
+
+.ep__contenedor {
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.ep__error__title span {
+    padding: 0 15px 2px 0;
+}
+
+.ep__nav {
+    text-decoration: none;
+    cursor: pointer;
+    color: #207698;
+}
+
+.ep__nav:hover {
+    color: #2F92D2;
+    transition: all .5s;
+}
