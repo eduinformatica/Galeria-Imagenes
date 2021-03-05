@@ -33,7 +33,7 @@
 
 					<div class="navbar-nav ml-md-auto">
 						<a href="login" class="nav-link active my-2 my-sm-0"><i class="fa fa-sign-in mr-2" aria-hidden="true"></i>Sign In</a>
-					</form>
+					</div>
 				</div>
 			</div>
 		</nav>
