@@ -1,10 +1,18 @@
-/********************
- * INDEX { HEADER }
- ********************/
-
 * {
     font-weight: 300;
 }
+
+input:focus, input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+/********************
+ * INDEX { HEADER }
+ ********************/
 
 .navbar-toggler {
     border: none;
@@ -40,7 +48,7 @@
 }
 
 .login__container {
-    background-color: #DFDFDF;
+    /*background-color: #DFDFDF;*/
     width: 300px;
     border-top: .3rem solid #101010;
     box-sizing: border-box;
@@ -73,6 +81,7 @@
     padding: 0.8rem;
     transition: all .7s;
     border: none;
+    border-bottom: 1px solid #626262;
     color: #154E65;
 }
 
@@ -88,7 +97,8 @@
     background-color: #207698;
     color: #fff;
     padding: .5rem;
-    margin: .5rem 0 .3rem;
+    /*margin: 5rem 0 .3rem;*/
+    margin: 1.5rem 0 .3rem;
 }
 
 .btn__submit:hover {
@@ -109,6 +119,22 @@
 .form__recover:hover {
     color: #207698;
     transition: all .5s;
+}
+
+/********************
+ * REGISTER
+ ********************/
+
+/*.register__input {
+    border: none;
+    border-bottom: 1px solid #626262;
+}*/
+
+.register__title {
+    color: #2E2E2E;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 400;
 }
 
 /********************
