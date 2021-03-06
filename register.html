@@ -6,9 +6,41 @@
 	<title>ImagesPro's Registrarse</title>
 	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 	<!-- CSS Style -->
-	<link rel="stylesheet" href="./assets/css/estilos.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
-	<h1>En proceso de ejecucion</h1>
+	<div class="d-flex justify-content-center p-5">
+		<form class="p-4" style="border-top: .3rem solid #101010; border-radius: .3rem; box-shadow: 0 0 .5rem #1f2430;">
+			<h1 class="register__title h3">Registrar Usuario</h1>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="inpRut">Rut:</label>
+					<input type="text" name="inpRut" id="inpRut" class="form-control form-control-sm register__input" placeholder="29644095-K">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inpNombre">Nombre:</label>
+					<input type="text" name="inpNombre" id="inpNombre" class="form-control form-control-sm register__input">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="inpApaterno">Apellido Paterno:</label>
+					<input type="text" name="inpApaterno" id="inpApaterno" class="form-control form-control-sm register__input">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inpApaterno">Apellido Materno:</label>
+					<input type="text" name="inpAmaterno" id="inpAmaterno" class="form-control form-control-sm register__input">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-12">
+					<label for="inpUser">Usuario:</label>
+					<input type="text" name="inpUser" id="inpUser" class="form-control form-control-sm register__input">
+				</div>
+			</div>
+		</form>
+	</div>
+
 </body>
 </html>
