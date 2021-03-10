@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body style="font-family: 'Lato', sans-serif;">
+	<?php echo '<p style="font-size: 0.75rem">1.1001D<p>'; ?>
+
 	<div class="login__contenedor">
 		<div class="login__container">
 			<div class="login__top">
